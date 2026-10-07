@@ -1,38 +1,56 @@
-# Awesome-Low-Latency-Live-Video-Streaming
+# ⚡ Awesome Low-Latency Live Video Streaming 📹
 
-## Top Low-Latency Live Video Streaming Ecosystem
+[![Awesome Low-Latency Live Video Streaming Banner](assets/banner.svg)](https://github.com/ishandutta2007/Awesome-Low-Latency-Live-Video-Streaming)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Sub-Second Latency, Interactive Streaming & Self-Hosted Media Servers*  
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Low-Latency-Live-Video-Streaming/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Low-Latency-Live-Video-Streaming?style=flat-square&color=gold" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Low-Latency-Live-Video-Streaming/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Low-Latency-Live-Video-Streaming?style=flat-square&color=blue" alt="GitHub forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Low-Latency-Live-Video-Streaming/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Low-Latency-Live-Video-Streaming?style=flat-square&color=green" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Low-Latency-Live-Video-Streaming/commits/main"><img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Low-Latency-Live-Video-Streaming?style=flat-square&color=orange" alt="Last Commit"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Last updated: October 2026**
-
-This repository tracks notable **commercial low-latency streaming platforms** and **open-source projects** that deliver live video with sub-second to low-second latency — enabling interactive experiences, real-time communication, and scalable broadcasts without the typical HLS delay.
-
----
-
-## Table of Contents
-
-- [Market Overview](#market-overview)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+> **A curated, production-ready directory of Low-Latency Live Video Streaming SaaS platforms, self-hosted open-source media servers, WebRTC SFU gateways, and real-time interactive video SDKs.**
 
 ---
 
-## Market Overview
+## 📌 Executive Summary & SEO Keywords
 
-**Estimated Sector Market Size & Industry Structure:**  
-The global low-latency live video streaming market is estimated at **$1.8B – $2.5B in 2026**, projected to expand to **$6.5B+ by 2030** at a CAGR of ~21.5%. The sector is **moderately fragmented** (rather than winner-take-all) due to distinct architectural trade-offs: hyperscale clouds focus on cost-effective LL-HLS broadcast delivery, real-time API vendors specialize in sub-second WebRTC interactivity, and open-source media engines power self-hosted sovereignty.
+This repository serves as the definitive reference guide for video engineers, DevOps architects, and media software developers seeking **sub-second to ultra-low latency live video streaming infrastructure**. 
+
+### 🔑 Key Topic Coverage:
+- **Sub-Second Interactivity:** WebRTC, WebTransport, Media-over-QUIC (< 500 ms latency)
+- **Large-Scale Low-Latency Broadcasting:** Low-Latency HLS (LL-HLS), Low-Latency DASH (LL-DASH), CMAF (~ 2 to 5 seconds latency)
+- **Ingest & Contribution Protocols:** SRT (Secure Reliable Transport), RTMP, RTSP, RIST, WHIP, WHEP
+- **Infrastructure Architectures:** Selective Forwarding Units (SFU), Multipoint Control Units (MCU), Media Routers, Adaptive Bitrate Transcoders (ABR), and Edge CDN Distribution.
 
 ---
 
-## SaaS/Hosted Platforms
+## 📋 Table of Contents
 
-> *Platforms are sorted in descending order by estimated company size (annual revenue / valuation).*
+- [📊 Sector Market Overview](#-sector-market-overview)
+- [☁️ SaaS / Cloud Hosted Platforms](#%EF%B8%8F-saas--cloud-hosted-platforms)
+- [🛠️ Open-Source GitHub Media Servers & WebRTC Platforms](#%EF%B8%8F-open-source-github-media-servers--webrtc-platforms)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer & Engineering Guidelines](#%EF%B8%8F-disclaimer--engineering-guidelines)
 
-| Platform / Product | Company Size (Revenue / Valuation) | Starting Tier Pricing | Free Tier / Trial Quota | Key Focus / Best For |
+---
+
+## 📊 Sector Market Overview
+
+**Estimated Sector Market Size & Industry Dynamics:**  
+The global low-latency live video streaming market is estimated at **$1.8B – $2.5B in 2026**, projected to reach **$6.5B+ by 2030** at a CAGR of ~21.5%. The market structure is **moderately fragmented** (rather than winner-take-all) due to distinct architectural trade-offs: hyperscale cloud providers focus on cost-effective LL-HLS broadcast delivery at scale, real-time API platforms specialize in sub-second WebRTC interactivity, and open-source media engines power self-hosted sovereignty.
+
+---
+
+## ☁️ SaaS / Cloud Hosted Platforms
+
+> *Commercial cloud platforms sorted in descending order by estimated company size (annual revenue / valuation).*
+
+| 🚀 Platform / Product | 🏢 Company Size (Revenue / Valuation) | 💰 Starting Tier Pricing | 🆓 Free Tier / Trial Quota | 🎯 Key Focus / Best For |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Amazon Interactive Video Service (IVS)](https://aws.amazon.com/ivs/)** | ~$600B Revenue / ~$2.2T Market Cap *(AWS)* | $0.015/hr (ingest) + $0.075/hr (SD output) | 5 hrs live video input & 100 hrs output/mo free forever | AWS-native managed interactive streaming |
 | **[Cloudflare Stream](https://www.cloudflare.com/products/stream/)** | ~$1.7B Revenue / ~$35B Market Cap *(Cloudflare)* | $5.00/mo (includes 1,000 min storage & 5,000 min view) | 10,000 minutes free trial credit (30-day trial) | Simple video delivery & low-latency HLS |
@@ -47,7 +65,7 @@ The global low-latency live video streaming market is estimated at **$1.8B – $
 
 ---
 
-## Open-Source GitHub Projects
+## 🛠️ Open-Source GitHub Media Servers & WebRTC Platforms
 
 > *Repositories are sorted in descending order by GitHub star count. Star badges link directly to each repository's stargazers page.*
 
@@ -76,25 +94,38 @@ The global low-latency live video streaming market is estimated at **$1.8B – $
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
+Contributions from video engineers, streaming architects, and developers are warmly welcomed! 🌟
 
-Star the repo if you find it useful!
+1. 🍴 **Fork the repository** on GitHub.
+2. 📝 **Add or edit entries** in `README.md` following the established tabular and list format.
+3. ℹ️ **Provide clear factual details**: include protocol capabilities, pricing/tier details, and license types.
+4. 🚀 **Submit a Pull Request (PR)** with a clear title and description.
 
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Low-latency streaming platforms handle bandwidth-intensive workloads and may process sensitive content. Self-hosted solutions require proper security hardening, bandwidth planning, and compliance with content regulations.
-- **Latency vs. scalability trade-offs** — WebRTC delivers sub-second latency but scales to hundreds; LL-HLS scales to millions with 2–8 second latency . Standard HLS has 15–30 second latency . Choose based on your interactivity requirements.
-- **Protocol selection matters** — WebRTC for interactive (<500ms), LL-HLS for large-scale low-latency broadcasts (2–8s), SRT for contribution feeds (0.5–2s), RTMP for ingest (2–5s) .
-- **License considerations**: SRS uses MIT, Ant Media Server is open-source with Community/Enterprise editions , OvenMediaEngine uses AGPL-3.0, MediaMTX uses MIT , and LiveKit uses Apache-2.0 . Verify licensing against your use case before committing.
-- The open-source ecosystem provides strong media servers, WebRTC platforms, and protocol flexibility, but **global infrastructure, automatic scaling, and vendor-supported SLAs** remain primarily commercial offerings.
+Check out [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated tech repositories.
 
 ---
 
-**Made for streaming engineers, media developers, and organizations seeking low-latency streaming sovereignty.**  
-Let's make low-latency live video streaming more open, transparent, and accessible.
+## 💖 Support & Sponsorship
+
+Thank you for exploring and building with the low-latency live streaming community! 🌟
+
+If you find this repository helpful, please consider supporting the project:
+- ⭐ **Star this repository** to help others discover it!
+- 🔀 **Fork & Share** it with fellow streaming engineers and developers.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing maintenance and new features, visit the [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Low-Latency-Live-Video-Streaming&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Low-Latency-Live-Video-Streaming&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer & Engineering Guidelines
+
+- **Community Curated:** This repository is a community-curated list for informational purposes.
+- **Security & Infrastructure:** Self-hosted live media servers require proper security hardening (TURN/STUN auth, TLS encryption, IP whitelisting) and network bandwidth planning.
+- **Latency vs. Scale Trade-offs:** WebRTC delivers sub-second latency (<500ms) but requires significant SFU relay capacity for massive concurrency; LL-HLS scales easily to millions of viewers with 2–5 seconds latency.
