@@ -67,7 +67,7 @@ The global low-latency live video streaming market is estimated at **$1.8B – $
 
 ## 🛠️ Open-Source GitHub Media Servers & WebRTC Platforms
 
-> *Repositories are sorted in descending order by GitHub Stars_Count. Stars_Badges link directly to each repository's stargazers page.*
+> *Repositories are sorted in descending order by GitHub_Stars_Count. Stars_Badges link directly to each repository's stargazers page.*
 
 - **[OBS Studio](https://github.com/obsproject/obs-studio)** [![GitHub_Stars](https://img.shields.github.io/github/stars/obsproject/obs-studio?style=social)](https://github.com/obsproject/obs-studio/stargazers) — Free and open-source software for live video recording and live streaming.
 - **[FFmpeg](https://github.com/FFmpeg/FFmpeg)** [![GitHub_Stars](https://img.shields.github.io/github/stars/FFmpeg/FFmpeg?style=social)](https://github.com/FFmpeg/FFmpeg/stargazers) — Foundational cross-platform multimedia framework to record, convert, transcode, and stream audio/video.
