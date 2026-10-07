@@ -49,50 +49,30 @@ The global low-latency live video streaming market is estimated at **$1.8B – $
 
 ## Open-Source GitHub Projects
 
-### Live Streaming Servers
+> *Repositories are sorted in descending order by GitHub star count. Star badges link directly to each repository's stargazers page.*
 
-- **[SRS (Simple Realtime Server)](https://github.com/ossrs/srs)**  
-  **The leading open-source live streaming server**, MIT licensed with **29,000+ GitHub stars** . **Supports RTMP, WebRTC, HLS, HTTP-FLV, SRT, MPEG-DASH, and more** . **RTMP latency of 0.8–3s** ; **min-latency mode achieves ~0.1s for video-only streams** . **Scalable to millions of viewers** . **The de facto open-source Wowza alternative** . **Best for production live streaming** .
-
-- **[Ant Media Server](https://github.com/ant-media/Ant-Media-Server)**  
-  **Ultra-low latency streaming engine with WebRTC (~0.5s)**, open-source with **4,700+ GitHub stars** . **Supports WebRTC, SRT, RTMP, HLS, CMAF, RTSP, and H.265/HEVC** . **SDKs for iOS, Android, React Native, Flutter, Unity, and JavaScript** . **Adaptive bitrate and cloud auto-scaling** . **Best for ultra-low latency interactive streaming** .
-
-- **[OvenMediaEngine](https://github.com/AirenSoft/OvenMediaEngine)**  
-  **Sub-second latency live streaming server**, AGPL-3.0 licensed with **3,200+ GitHub stars** . **Supports WebRTC, LL-HLS, and SRT** for large-scale high-definition streaming . **Embedded live transcoder with ABR** . **DVR (Live Rewind)** and **DRM (Widevine, Fairplay)** . **Best for ultra-low latency with protocol flexibility** .
-
-- **[MediaMTX](https://github.com/bluenviron/mediamtx)**  
-  **Ready-to-use zero-dependency live media server and media proxy**, MIT licensed with **20,000+ GitHub stars** . **Supports Media-over-QUIC, SRT, WebRTC, RTSP, RTMP, LL-HLS, MPEG-TS, and RTP** . **Automatic protocol conversion** — streams are converted from one protocol to another . **Single executable, no dependencies** . **Best for edge and simple deployments** .
-
-- **[Nginx-RTMP](https://github.com/arut/nginx-rtmp-module)**  
-  **RTMP streaming module for Nginx**, BSD-2-Clause licensed with **14,000+ GitHub stars** . **Simple RTMP streaming with HLS/DASH output** . **Best for simple RTMP streaming** .
-
-### WebRTC Platforms
-
-- **[LiveKit](https://github.com/livekit/livekit)**  
-  **End-to-end realtime stack for connecting humans and AI**, Apache-2.0 licensed with **21,000+ GitHub stars** . **Scalable, distributed WebRTC SFU** written in Go using Pion . **Modern client SDKs for JavaScript, Swift, Kotlin, Flutter, React Native, and Rust** . **Built for production with JWT authentication and robust networking (UDP/TCP/TURN)** . **Easy to deploy: single binary, Docker, or Kubernetes** . **Best for building scalable real-time video applications** .
-
-- **[Janus WebRTC Server](https://github.com/meetecho/janus-gateway)**  
-  **General-purpose WebRTC server**, GPL-3.0 licensed with **9,100+ GitHub stars** . **Plugin architecture for VideoRoom, SIP, streaming, and more** . **Supports WebSockets, MQTT, RabbitMQ, and Data Channels** . **The reference for flexible WebRTC deployments** . **Best for custom WebRTC applications** .
-
-- **[Jitsi Videobridge](https://github.com/jitsi/jitsi-videobridge)**  
-  **WebRTC-compatible video router/SFU**, Apache-2.0 licensed with **3,100+ GitHub stars** . **Lets you build highly scalable video conferencing infrastructure** . **Powers Jitsi Meet** . **Best for scalable video conferencing** .
-
-- **[mediasoup](https://github.com/versatica/mediasoup)**  
-  **High-performance SFU library for WebRTC**, ISC licensed with **7,300+ GitHub stars** . **C++ core with Node.js signaling** . **Best for building custom WebRTC applications** .
-
-### Additional Strong Open-Source Options
-
-- **Jitsi Meet** — Secure, simple, and scalable video conferences (30,000+ stars) .
-- **Pion WebRTC** — Pure Go WebRTC implementation (16,800+ stars) .
-- **coturn** — High-performance TURN/STUN server for WebRTC (14,400+ stars) .
-- **Owncast** — Self-hosted live streaming and chat (11,500+ stars) .
-- **Node-Media-Server** — Node.js RTMP/HTTP-FLV media server (6,200+ stars) .
-- **Restreamer** — Self-hosted live streaming UI and distribution server (5,200+ stars) .
-- **OpenVidu** — WebRTC platform for building custom video apps (2,100+ stars) .
-- **OBS Studio** — Open-source streaming software (77,000+ stars) .
-- **Shaka Packager** — DASH/HLS packaging with DRM (2,600+ stars) .
-- **FFmpeg** — The foundational multimedia framework (64,000+ stars) .
-- **GStreamer** — Pipeline-based multimedia framework (3,300+ stars) .
+- **[OBS Studio](https://github.com/obsproject/obs-studio)** [![GitHub stars](https://img.shields.github.io/github/stars/obsproject/obs-studio?style=social)](https://github.com/obsproject/obs-studio/stargazers) — Free and open-source software for live video recording and live streaming.
+- **[FFmpeg](https://github.com/FFmpeg/FFmpeg)** [![GitHub stars](https://img.shields.github.io/github/stars/FFmpeg/FFmpeg?style=social)](https://github.com/FFmpeg/FFmpeg/stargazers) — Foundational cross-platform multimedia framework to record, convert, transcode, and stream audio/video.
+- **[Jitsi Meet](https://github.com/jitsi/jitsi-meet)** [![GitHub stars](https://img.shields.github.io/github/stars/jitsi/jitsi-meet?style=social)](https://github.com/jitsi/jitsi-meet/stargazers) — Secure, simple, and scalable WebRTC video conferencing standalone and embeddable application.
+- **[SRS (Simple Realtime Server)](https://github.com/ossrs/srs)** [![GitHub stars](https://img.shields.github.io/github/stars/ossrs/srs?style=social)](https://github.com/ossrs/srs/stargazers) — High-performance, production-ready real-time media server supporting RTMP, WebRTC, HLS, HTTP-FLV, SRT, and MPEG-DASH.
+- **[LiveKit](https://github.com/livekit/livekit)** [![GitHub stars](https://img.shields.github.io/github/stars/livekit/livekit?style=social)](https://github.com/livekit/livekit/stargazers) — Scalable, distributed WebRTC SFU stack written in Go for real-time video, audio, and AI applications.
+- **[MediaMTX](https://github.com/bluenviron/mediamtx)** [![GitHub stars](https://img.shields.github.io/github/stars/bluenviron/mediamtx?style=social)](https://github.com/bluenviron/mediamtx/stargazers) — Ready-to-use zero-dependency live media server and proxy supporting Media-over-QUIC, SRT, WebRTC, RTSP, RTMP, and LL-HLS.
+- **[Pion WebRTC](https://github.com/pion/webrtc)** [![GitHub stars](https://img.shields.github.io/github/stars/pion/webrtc?style=social)](https://github.com/pion/webrtc/stargazers) — Pure Go implementation of the WebRTC API for building low-latency custom media pipelines.
+- **[coturn](https://github.com/coturn/coturn)** [![GitHub stars](https://img.shields.github.io/github/stars/coturn/coturn?style=social)](https://github.com/coturn/coturn/stargazers) — High-performance TURN/STUN server project essential for WebRTC NAT traversal and media relaying.
+- **[Nginx-RTMP Module](https://github.com/arut/nginx-rtmp-module)** [![GitHub stars](https://img.shields.github.io/github/stars/arut/nginx-rtmp-module?style=social)](https://github.com/arut/nginx-rtmp-module/stargazers) — NGINX extension for RTMP live streaming, video publishing, and HLS/DASH output generation.
+- **[Owncast](https://github.com/owncast/owncast)** [![GitHub stars](https://img.shields.github.io/github/stars/owncast/owncast?style=social)](https://github.com/owncast/owncast/stargazers) — Self-hosted single-user live video streaming server with built-in interactive web chat.
+- **[Janus WebRTC Server](https://github.com/meetecho/janus-gateway)** [![GitHub stars](https://img.shields.github.io/github/stars/meetecho/janus-gateway?style=social)](https://github.com/meetecho/janus-gateway/stargazers) — General-purpose C-based WebRTC gateway supporting plugin architectures for VideoRoom, streaming, and SIP.
+- **[mediasoup](https://github.com/versatica/mediasoup)** [![GitHub stars](https://img.shields.github.io/github/stars/versatica/mediasoup?style=social)](https://github.com/versatica/mediasoup/stargazers) — Cutting-edge WebRTC SFU library designed with a C++ core and Node.js/Rust signaling bindings.
+- **[Node-Media-Server](https://github.com/illuspas/Node-Media-Server)** [![GitHub stars](https://img.shields.github.io/github/stars/illuspas/Node-Media-Server?style=social)](https://github.com/illuspas/Node-Media-Server/stargazers) — Node.js implementation of RTMP, HTTP-FLV, and WebSocket-FLV live media server.
+- **[Restreamer](https://github.com/datarhei/restreamer)** [![GitHub stars](https://img.shields.github.io/github/stars/datarhei/restreamer?style=social)](https://github.com/datarhei/restreamer/stargazers) — Complete streaming server solution for self-hosting with a visual UI to ingest and multi-publish streams.
+- **[Ant Media Server](https://github.com/ant-media/Ant-Media-Server)** [![GitHub stars](https://img.shields.github.io/github/stars/ant-media/Ant-Media-Server?style=social)](https://github.com/ant-media/Ant-Media-Server/stargazers) — Ultra-low latency streaming engine delivering ~0.5s WebRTC streams with auto-scaling and cross-platform SDKs.
+- **[GStreamer](https://github.com/GStreamer/gstreamer)** [![GitHub stars](https://img.shields.github.io/github/stars/GStreamer/gstreamer?style=social)](https://github.com/GStreamer/gstreamer/stargazers) — Pipeline-based multimedia framework for constructing complex audio and video processing graphs.
+- **[OvenMediaEngine](https://github.com/AirenSoft/OvenMediaEngine)** [![GitHub stars](https://img.shields.github.io/github/stars/AirenSoft/OvenMediaEngine?style=social)](https://github.com/AirenSoft/OvenMediaEngine/stargazers) — Sub-second latency live streaming server supporting WebRTC and LL-HLS with embedded ABR transcoding.
+- **[Jitsi Videobridge](https://github.com/jitsi/jitsi-videobridge)** [![GitHub stars](https://img.shields.github.io/github/stars/jitsi/jitsi-videobridge?style=social)](https://github.com/jitsi/jitsi-videobridge/stargazers) — WebRTC-compatible Selective Forwarding Unit (SFU) router designed for high-concurrency video conferencing.
+- **[Kurento Media Server](https://github.com/Kurento/kurento-media-server)** [![GitHub stars](https://img.shields.github.io/github/stars/Kurento/kurento-media-server?style=social)](https://github.com/Kurento/kurento-media-server/stargazers) — WebRTC media server offering media pipelines, computer vision capabilities, and real-time video filters.
+- **[Shaka Packager](https://github.com/shaka-project/shaka-packager)** [![GitHub stars](https://img.shields.github.io/github/stars/shaka-project/shaka-packager?style=social)](https://github.com/shaka-project/shaka-packager/stargazers) — Media packaging framework for VOD and Live DASH/HLS applications supporting Common Encryption (CENC) and DRM.
+- **[OpenVidu](https://github.com/OpenVidu/openvidu)** [![GitHub stars](https://img.shields.github.io/github/stars/OpenVidu/openvidu?style=social)](https://github.com/OpenVidu/openvidu/stargazers) — Self-hosted real-time video and audio application platform built on top of LiveKit and mediasoup.
+- **[Membrane Framework](https://github.com/membraneframework/membrane_core)** [![GitHub stars](https://img.shields.github.io/github/stars/membraneframework/membrane_core?style=social)](https://github.com/membraneframework/membrane_core/stargazers) — Modular multimedia processing framework written in Elixir for building scalable audio/video pipelines.
 
 ---
 
